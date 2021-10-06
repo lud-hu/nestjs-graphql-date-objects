@@ -1,0 +1,1 @@
+Just a reproduction repo to show a problem with date object conversion with nestjs and graphql.

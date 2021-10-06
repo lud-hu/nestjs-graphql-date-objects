@@ -1,0 +1,11 @@
+scalar Date
+
+type Dummy {
+  id: ID!
+  name: String!
+  createdAt(createdAt: Date!): Date!
+}
+
+type Query {
+  dummy(id: ID!): Dummy!
+}
